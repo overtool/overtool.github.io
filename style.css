@@ -2,19 +2,19 @@ body {
   margin: 0;
   height: 100vh;
   background: black;
-  color: #00ff9f;
-  font-family: monospace;
+  color: #7d00ff;
+  font-family: 'JetBrains Mono', monospace;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .container {
-  border: 2px solid #00ff9f;
+  border: 2px solid #7d00ff;
   padding: 30px;
   width: 340px;
   text-align: center;
-  box-shadow: 0 0 25px #00ff9f44;
+  box-shadow: 0 0 25px #7d00ff44;
 }
 
 h1 {
@@ -33,15 +33,15 @@ input {
   padding: 8px;
   margin: 8px 0;
   background: black;
-  border: 1px solid #00ff9f;
-  color: #00ff9f;
+  border: 1px solid #7d00ff;
+  color: #7d00ff;
 }
 
 button {
   margin-top: 10px;
   padding: 10px;
   width: 100%;
-  background: #00ff9f;
+  background: #7d00ff;
   border: none;
   color: black;
   font-weight: bold;
@@ -64,7 +64,7 @@ button:hover {
 }
 
 .panel {
-  border: 1px solid #00ff9f;
+  border: 1px solid #7d00ff;
   padding: 10px;
   margin: 10px 0;
 }
