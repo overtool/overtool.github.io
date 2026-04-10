@@ -4,7 +4,7 @@ function login() {
   const msg = document.getElementById("msg");
 
   if (user === "admin" && pass === "letmein") {
-    msg.style.color = "#00ff9f";
+    msg.style.color = "#7d00ff";
     msg.innerText = "ACCESS GRANTED...";
 
     setTimeout(() => {
@@ -16,7 +16,7 @@ function login() {
     msg.innerText = "ACCESS DENIED";
 
     setTimeout(() => {
-      msg.innerText = "Incident logged (not really)";
+      msg.innerText = "Incident logged (trust me bro)";
     }, 1000);
   }
 }
